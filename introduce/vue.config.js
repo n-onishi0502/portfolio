@@ -2,7 +2,7 @@ const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   transpileDependencies: true
 })
-
-module.exports = {
-  publicPath: './'
-}
+// 追加
+// module.exports = {
+//   publicPath: './'
+// }
