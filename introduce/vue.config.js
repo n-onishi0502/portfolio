@@ -4,7 +4,11 @@
 // })
 // 追加
 module.exports = {
-  publicPath: './'
+  publicPath: './',
+
+  transpileDependencies: [
+    'vuetify'
+  ]
 }
 
 // module.exports = defineConfig({
