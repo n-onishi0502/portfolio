@@ -1,11 +1,8 @@
 <template>
-  <div>
-    <v-app>
-      <NavBar />
-      <AboutMe />
-      
-    </v-app>
-  </div>
+  <v-app>
+    <NavBar />
+    <AboutMe />
+  </v-app>
 </template>
 
 <script>
