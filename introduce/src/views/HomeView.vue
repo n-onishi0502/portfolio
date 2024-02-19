@@ -1,20 +1,23 @@
 <template>
   <v-app>
-    <NavBar />
-    <AboutMe />
+    <NavBar/>
+    <AboutMe id="aboutMe"/>
+    <Skills id="skills"/>
   </v-app>
 </template>
 
 <script>
   import NavBar from '../components/NavBar'
   import AboutMe from '../components/AboutMe'
+  import Skills from '../components/Skills'
 
   export default {
     name: 'Home',
 
     components: {
       NavBar,
-      AboutMe
+      AboutMe,
+      Skills
     },
   }
 </script>
